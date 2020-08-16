@@ -4,10 +4,14 @@
 <!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
 
 <div style="text-align:center;">
-  <h1>LocalCastWeather</h1>
+  <mat-toolbar color="primary"
+  >LocalCastWeather
+  </mat-toolbar>
   <div>Your City, Your Forecast, Right Now</div>
-  <h2>Current Weather</h2>
-  <app-current-weather></app-current-weather>
-
-  <div>Your Current Weather Here</div>
+  <div>
+    <mat-card>
+      <h2>Current Weather</h2>
+      <app-current-weather></app-current-weather>
+    </mat-card>
+  </div>
 </div>
