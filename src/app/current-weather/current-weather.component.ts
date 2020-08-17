@@ -7,7 +7,7 @@ import { ICurrentWeather } from '../icurrent-weather';
   styleUrls: ['./current-weather.component.css']
 })
 export class CurrentWeatherComponent implements OnInit {
-  @Input() current: ICurrentWeather
+  @Input() current: ICurrentWeather;
   constructor() {
     }
   ngOnInit(): void {
